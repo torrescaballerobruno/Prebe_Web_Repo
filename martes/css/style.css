@@ -1,0 +1,77 @@
+h1{
+	color:#FFF;
+	text-align: center;
+}
+body{
+	background-color: #f1f1f1;
+	font-family: sans-serif;
+	font-size: 100%;
+	font-style: oblique; 
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: rgba(0,0,0,0);
+}
+a:hover{
+	color: #ccc;
+}
+li{
+	display: inline;
+}
+.cabecera{
+	background-color: #000;
+}
+.menu{
+	display: inline-block;
+	color: #FFF;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	background: black;
+	font-size: 12px;
+}
+.nelpastel{
+	display: none;
+}
+
+li:hover a{
+	background: #ccc;
+	color: #000;
+}
+li.active a{
+	background: #ccc;
+}
+.footer{	
+	height: 80;
+	background-color: gray;
+	margin: 60px;
+	border-radius: 50px;
+}
+.informacion-justificado{
+	width: 30%;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-align: justify;
+}
+table, th, td{
+	border:1px solid black;
+	border-collapse: collapse;
+}
+th, td{
+	padding: 10px;
+}
+#biografia{
+	width: 80%;
+	margin:25px;
+	padding: 25px;
+	text-align: justify;
+}
+#imgBio{
+	width="150";
+	height="200";
+}
